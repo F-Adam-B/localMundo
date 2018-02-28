@@ -5,7 +5,7 @@ The purpose behind Hola Mundo was to create a full-stack app using Node.js for t
 
 # Wireframe:
 
-<img src="../UX/wireframe-page-001.jpg">
+<img src="./spacedRepetition-client-master/UX/wireframe-page-001.jpg">
 <img src="UX/wireframe-page-002.jpg">
 <img src="UX/wireframe-page-003.jpg">
 <img src="UX/wireframe-page-004.jpg">
