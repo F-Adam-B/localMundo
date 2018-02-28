@@ -1,1 +1,31 @@
+.header-bar {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80%;
+	color: rgb(196, 67, 58);
+	background-color: rgba(245, 245, 245, 0.747);
+	border-radius: 15% 15% 15% 15%;
+	box-shadow: 2px 2px 5px black;
+}
 
+.headerBarWrapper {
+	width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+	.header-bar {
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 1024) {
+	.header-bar {
+		width: 80%;
+		display: flex !important;
+	}
+	.headerBarWrapper {
+		display: flex !important;
+	}
+}

@@ -1,6 +1,7 @@
 .register-form {
 	width: 330px;
 	margin: 0% auto;
+
 	padding-bottom: 10px;
 	padding-top: 10px;
 	border-radius: 5%;
@@ -8,4 +9,27 @@
 	box-shadow: 2px 2px 31px black;
 	color: rgb(196, 67, 58);
 	background-color: rgba(245, 245, 245, 0.692);
+}
+
+@media only screen and (min-width: 480px) {
+	.register-form {
+		width: 400px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.register-form {
+		width: 400px;
+		margin-right: 100px;
+		margin-top: 20px;
+	}
+	.registrationPageWrapper {
+		display: flex;
+	}
+	.sideImageRegistration {
+		margin-top: 100px;
+	}
+	.register-form {
+		text-align: center;
+	}
 }

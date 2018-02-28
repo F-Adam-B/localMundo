@@ -6,4 +6,11 @@
 
 .registerFormWrapper {
 	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1020px) {
+	.loginLink {
+		margin-right: 110px;
+	}
 }

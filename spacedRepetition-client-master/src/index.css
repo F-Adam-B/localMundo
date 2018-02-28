@@ -44,6 +44,7 @@ a {
 
 .spanish_question {
 	padding-bottom: 10px;
+	color: brown;
 }
 
 .spanishWord {
@@ -72,18 +73,13 @@ a {
 	margin-top: 200px;
 }
 
-.loginFormWrapper {
-	width: 100%;
-	height: 300px;
-	text-align: center;
-}
-
 .landingPageImageContainer {
 	height: 200px;
 	text-align: center;
 	margin-top: 20px;
 }
 
+.sideImageRegistration,
 .sideImage {
 	background-color: rgba(255, 255, 255, 0.589);
 	border-radius: 5%;
@@ -95,13 +91,18 @@ a {
 	background-color: whitesmoke;
 }
 
-.header-bar {
-	margin: 0 auto;
+#userAnswer {
 	text-align: center;
-	margin-top: 20px;
-	width: 300px;
-	color: rgb(196, 67, 58);
-	background-color: rgba(245, 245, 245, 0.747);
-	border-radius: 15% 15% 15% 15%;
-	box-shadow: 2px 2px 5px black;
+}
+@media only screen and (min-width: 1020px) {
+	.landingPageImageContainer {
+		margin-left: 10%;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.landingPageImageContainer {
+		margin-left: 20%;
+	}
 }

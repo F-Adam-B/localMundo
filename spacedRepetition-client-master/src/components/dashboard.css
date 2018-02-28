@@ -43,3 +43,28 @@ body {
 .answerCorrect {
 	color: green;
 }
+
+@media only screen and (min-width: 1020px) {
+	.dashboardWrapper {
+		display: flex;
+	}
+	.scoreCardWrapper,
+	.selectionFieldWrapper {
+		margin-top: 50px;
+	}
+	.scoreCardWrapper {
+		margin-left: 15%;
+	}
+	.selectionFieldWrapper {
+		margin-right: 15%;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.scoreCardWrapper {
+		margin-left: 20%;
+	}
+	.selectionFieldWrapper {
+		margin-right: 20%;
+	}
+}
