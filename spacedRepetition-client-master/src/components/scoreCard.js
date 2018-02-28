@@ -11,7 +11,7 @@ export class ScoreCard extends Component {
 			response = <div className="answerIncorrect">Incorrecto! - 1 </div>;
 		}
 		return (
-			<div className="scoreCardWrapper">
+			<div className="scoreCard">
 				<div className="dashboard-username">{this.props.username}</div>
 				<div className="userScore">Score: {this.props.runningScore}</div>
 				<div className="responseFeedback">{response}</div>

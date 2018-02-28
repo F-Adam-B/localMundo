@@ -14,14 +14,14 @@ export class HeaderBar extends React.Component {
 		let logOutButton;
 		if (this.props.loggedIn) {
 			logOutButton = (
-				<button onClick={() => this.logOut()} className="btn btn-primary btn-sm">
+				<button onClick={() => this.logOut()} className="btn btn-primary btn-sm logoutButton">
 					Log out
 				</button>
 			);
 		}
 
 		return (
-			<div className="container col-md-10">
+			<div className="headerBarWrapper">
 				<div className="header-bar">
 					<h1>Hola Mundo!</h1>
 					{logOutButton}

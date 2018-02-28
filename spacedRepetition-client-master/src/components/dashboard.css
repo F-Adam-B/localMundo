@@ -1,3 +1,45 @@
 body {
 	background-color: transparent;
 }
+
+.scoreCardWrapper {
+	font-size: 1.3em;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	background-color: wheat;
+	box-shadow: 2px 2px 10px black;
+	height: 200px;
+	width: 300px;
+	border-radius: 5%;
+	color: blue;
+}
+
+.selectionFieldWrapper {
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	width: 300px;
+	height: 275px;
+	box-shadow: 2px 2px 31px black;
+	border-radius: 5%;
+	background-color: wheat;
+	color: blue;
+}
+#userAnswer {
+	font-size: 25px !important;
+	background-color: whitesmoke !important;
+	margin-bottom: 10px;
+}
+
+.correctAnswer {
+	color: green;
+}
+
+.answerIncorrect {
+	color: red;
+}
+
+.answerCorrect {
+	color: green;
+}

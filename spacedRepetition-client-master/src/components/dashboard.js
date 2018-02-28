@@ -17,7 +17,7 @@ export class Dashboard extends React.Component {
 
 	render() {
 		return (
-			<div className="container col-md-10 center-block text-center dashboard">
+			<div className="dashboardWrapper">
 				<div className="scoreCardWrapper">
 					<ScoreCard />
 				</div>
