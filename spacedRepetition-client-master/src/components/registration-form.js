@@ -3,9 +3,18 @@ import { Field, reduxForm, focus } from 'redux-form';
 import { registerUser } from '../actions/users';
 import { login } from '../actions/auth';
 import Input from './input';
+import LoaderButton from './LoaderButton';
 import { required, nonEmpty, matches, length, isTrimmed } from '../validators';
 import './registration-form.css';
 export class RegistrationForm extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			isLoading: false,
+		};
+	}
+
 	onSubmit(values) {
 		const { username, password, firstName, lastName } = values;
 		const user = { username, password, firstName, lastName };
